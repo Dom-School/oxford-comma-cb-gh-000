@@ -4,4 +4,5 @@ def oxford_comma(array)
     return array.join(", ") << ", and #{last}"
   else
     return last
+  end
 end
